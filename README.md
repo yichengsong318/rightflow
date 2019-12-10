@@ -29,6 +29,19 @@ The app is build on top of the following framework and tools:
   For foratter we use Prettier in local development.  
   We recommand to install Editor Extension for Eslint and Prettier for fast development
 
+- Git hooks  
+  We use Prettier to format the code we write automatically to ensure a code style within project.  
+      - Prettier  
+        An opinionated code formatter with support for JavaScript, CSS and JSON.  
+        It'll be run before commits
+
+      - husky  
+        Makes it possible to use githooks as if they are npm scripts.  
+
+      - lint-staged  
+        allows us to run scripts on staged files in git  
+
+
 ### Tutorials for setup tools in project
   - https://dev.to/hagnerd/setting-up-tailwind-with-create-react-app-4jd
   - https://www.learnstorybook.com/intro-to-storybook/react/en/get-started/
