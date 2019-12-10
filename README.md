@@ -13,15 +13,15 @@ The app is build on top of the following framework and tools:
   We use Storybook for react for this project
 
 - Unit Test  
-  - Enzyme (https://airbnb.io/enzyme/)  
-    Enzyme is a JavaScript Testing utility for React that makes it easier to test your React Components' output
+    - Enzyme (https://airbnb.io/enzyme/)  
+      Enzyme is a JavaScript Testing utility for React that makes it easier to test your React Components' output
 
-  - Jest (https://jestjs.io/)  
-    Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
+    - Jest (https://jestjs.io/)  
+      Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
     
 - End to end Test  
-  - Cypress (https://www.cypress.io/how-it-works)  
-    Fast, easy and reliable testing for anything that runs in a browser.
+    - Cypress (https://www.cypress.io/how-it-works)  
+      Fast, easy and reliable testing for anything that runs in a browser.
 
 - Linter  
   We use default CRA eslint (located inside package.json -> eslintConfig)  
