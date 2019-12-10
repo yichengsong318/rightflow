@@ -1,18 +1,23 @@
-RightFlow Web app
+### RightFlow Web app
 
 The app is build on top of the following framework and tools:
 - ReactJs(https://github.com/facebook/create-react-app)
   A javascript library for building modern web app
+
 - Tailwindcss (https://tailwindcss.com/)
   A utility-first CSS framework for rapidly building custom designs.
+
 - Storybook (https://www.learnstorybook.com/)
   Storybook is an open source tool for developing UI components in isolation of framework.
   We use Storybook for react for this project
+
 - Unit Test
   - Enzyme (https://airbnb.io/enzyme/)
     Enzyme is a JavaScript Testing utility for React that makes it easier to test your React Components' output
+
   - Jest (https://jestjs.io/)
     Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
+    
 - End to end Test
   - Cypress (https://www.cypress.io/how-it-works)
     Fast, easy and reliable testing for anything that runs in a browser.
