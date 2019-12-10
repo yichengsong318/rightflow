@@ -5,28 +5,28 @@ The app is build on top of the following framework and tools:
 - ReactJs(https://github.com/facebook/create-react-app)  
   A javascript library for building modern web app
 
-- Tailwindcss (https://tailwindcss.com/)<br>  
+- Tailwindcss (https://tailwindcss.com/)    
   A utility-first CSS framework for rapidly building custom designs.
 
-- Storybook (https://www.learnstorybook.com/)<br>
-  Storybook is an open source tool for developing UI components in isolation of framework.<br>
+- Storybook (https://www.learnstorybook.com/)  
+  Storybook is an open source tool for developing UI components in isolation of framework.  
   We use Storybook for react for this project
 
-- Unit Test<br>
-  - Enzyme (https://airbnb.io/enzyme/)<br>
+- Unit Test  
+  - Enzyme (https://airbnb.io/enzyme/)  
     Enzyme is a JavaScript Testing utility for React that makes it easier to test your React Components' output
 
-  - Jest (https://jestjs.io/)<br>
+  - Jest (https://jestjs.io/)  
     Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
     
-- End to end Test<br>
-  - Cypress (https://www.cypress.io/how-it-works)<br>
+- End to end Test  
+  - Cypress (https://www.cypress.io/how-it-works)  
     Fast, easy and reliable testing for anything that runs in a browser.
 
-- Linter<br>
-  We use default CRA eslint (located inside package.json -> eslintConfig)<br>
+- Linter  
+  We use default CRA eslint (located inside package.json -> eslintConfig)  
 
-  For foratter we use Prettier in local development.<br>
+  For foratter we use Prettier in local development.  
   We recommand to install Editor Extension for Eslint and Prettier for fast development
 
 ### Tutorials for setup tools in project
