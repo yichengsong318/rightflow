@@ -9,15 +9,15 @@ The app is build on top of the following framework and tools:
   A utility-first CSS framework for rapidly building custom designs.
 
 - Storybook (https://www.learnstorybook.com/)  
-  Storybook is an open source tool for developing UI components in isolation of framework.  
+  An open source tool for developing UI components in isolation of framework.  
   We use Storybook for react for this project
 
 - Unit Test  
     - Enzyme (https://airbnb.io/enzyme/)  
-      Enzyme is a JavaScript Testing utility for React that makes it easier to test your React Components' output
+      A JavaScript Testing utility for React that makes it easier to test your React Components' output
 
     - Jest (https://jestjs.io/)  
-      Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
+      A delightful JavaScript Testing Framework with a focus on simplicity.
     
 - End to end Test  
     - Cypress (https://www.cypress.io/how-it-works)  
