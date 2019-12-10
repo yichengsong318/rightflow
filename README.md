@@ -22,6 +22,11 @@ The app is build on top of the following framework and tools:
   - Cypress (https://www.cypress.io/how-it-works)
     Fast, easy and reliable testing for anything that runs in a browser.
 
+- Linter
+  We use default CRA eslint (located inside package.json -> eslintConfig)
+
+  For foratter we use Prettier in local development. We recommand to install Editor Extension for Eslint and Prettier for fast development
+
 ### Tutorials for setup tools in project
   - https://dev.to/hagnerd/setting-up-tailwind-with-create-react-app-4jd
   - https://www.learnstorybook.com/intro-to-storybook/react/en/get-started/
