@@ -1,33 +1,33 @@
 ### RightFlow Web app
 
 The app is build on top of the following framework and tools:
-- ReactJs(https://github.com/facebook/create-react-app)
-  
+
+- ReactJs(https://github.com/facebook/create-react-app)<br>
   A javascript library for building modern web app
 
-- Tailwindcss (https://tailwindcss.com/)
-  
+- Tailwindcss (https://tailwindcss.com/)<br>
   A utility-first CSS framework for rapidly building custom designs.
 
-- Storybook (https://www.learnstorybook.com/)
-  Storybook is an open source tool for developing UI components in isolation of framework.
+- Storybook (https://www.learnstorybook.com/)<br>
+  Storybook is an open source tool for developing UI components in isolation of framework.<br>
   We use Storybook for react for this project
 
-- Unit Test
-  - Enzyme (https://airbnb.io/enzyme/)
+- Unit Test<br>
+  - Enzyme (https://airbnb.io/enzyme/)<br>
     Enzyme is a JavaScript Testing utility for React that makes it easier to test your React Components' output
 
-  - Jest (https://jestjs.io/)
+  - Jest (https://jestjs.io/)<br>
     Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
     
-- End to end Test
-  - Cypress (https://www.cypress.io/how-it-works)
+- End to end Test<br>
+  - Cypress (https://www.cypress.io/how-it-works)<br>
     Fast, easy and reliable testing for anything that runs in a browser.
 
-- Linter
-  We use default CRA eslint (located inside package.json -> eslintConfig)
+- Linter<br>
+  We use default CRA eslint (located inside package.json -> eslintConfig)<br>
 
-  For foratter we use Prettier in local development. We recommand to install Editor Extension for Eslint and Prettier for fast development
+  For foratter we use Prettier in local development.<br>
+  We recommand to install Editor Extension for Eslint and Prettier for fast development
 
 ### Tutorials for setup tools in project
   - https://dev.to/hagnerd/setting-up-tailwind-with-create-react-app-4jd
