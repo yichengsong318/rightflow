@@ -1,4 +1,33 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+RightFlow Web app
+
+The app is build on top of the following framework and tools:
+- ReactJs(https://github.com/facebook/create-react-app)
+  A javascript library for building modern web app
+- Tailwindcss (https://tailwindcss.com/)
+  A utility-first CSS framework for rapidly building custom designs.
+- Storybook (https://www.learnstorybook.com/)
+  Storybook is an open source tool for developing UI components in isolation of framework.
+  We use Storybook for react for this project
+- Unit Test
+  - Enzyme (https://airbnb.io/enzyme/)
+    Enzyme is a JavaScript Testing utility for React that makes it easier to test your React Components' output
+  - Jest (https://jestjs.io/)
+    Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
+- End to end Test
+  - Cypress (https://www.cypress.io/how-it-works)
+    Fast, easy and reliable testing for anything that runs in a browser.
+
+### Tutorials for setup tools in project
+  - https://dev.to/hagnerd/setting-up-tailwind-with-create-react-app-4jd
+  - https://www.learnstorybook.com/intro-to-storybook/react/en/get-started/
+
+### Deployment
+  We have built a simple NodeJs server in order to render the app in production.
+
+### Deployment
+  We use open source Docker (https://docs.docker.com/get-started/) for app deployment.
+  We have CI/CD triggable from our Jenkins internal Jenkins.
+  We have Docker Swarm (https://docs.docker.com/engine/swarm/) installed inside our servers.
 
 ## Available Scripts
 
@@ -27,42 +56,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+### `yarn runapp`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Render app in production
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
