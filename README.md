@@ -2,9 +2,11 @@
 
 The app is build on top of the following framework and tools:
 - ReactJs(https://github.com/facebook/create-react-app)
+  
   A javascript library for building modern web app
 
 - Tailwindcss (https://tailwindcss.com/)
+  
   A utility-first CSS framework for rapidly building custom designs.
 
 - Storybook (https://www.learnstorybook.com/)
