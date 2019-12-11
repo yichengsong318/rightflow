@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1447" height="900" viewBox="0 0 1447 900">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_849" data-name="Rectangle 849" width="964" height="360" transform="translate(-7 540)" fill="#fff"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="2.276" y1="-0.303" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cfddf3"/>
+      <stop offset="1" stop-color="#a1b8e3"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-8" x1="0.317" y1="-0.092" x2="1.113" y2="0.75" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cfddf3"/>
+      <stop offset="1" stop-color="#7fa1e0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-9" x1="0.507" y1="0.748" x2="0.5" y2="-0.627" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d6e3fa"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-10" x1="-1.276" y1="-0.303" xlink:href="#linear-gradient"/>
+    <radialGradient id="radial-gradient" cx="0.719" cy="0.155" r="0.89" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#64cf9b"/>
+      <stop offset="1" stop-color="#adf9a9"/>
+    </radialGradient>
+  </defs>
+  <g id="splash_screen_background" data-name="splash screen background" transform="translate(7)">
+    <rect id="Rectangle_83" data-name="Rectangle 83" width="1440" height="900" fill="rgba(236,236,245,0.5)"/>
+    <g id="Mask_Group_5" data-name="Mask Group 5" clip-path="url(#clip-path)">
+      <g id="Group_1017" data-name="Group 1017" transform="translate(-9.5 162.132)" opacity="0.6">
+        <g id="plant" transform="translate(602.672 490.935)">
+          <path id="stem" d="M0,160.948C0,133.141,23.244,47.087,54.62,0" transform="translate(31.589 52.137)" fill="none" stroke="#707070" stroke-linecap="round" stroke-miterlimit="10" stroke-width="6"/>
+          <ellipse id="leaf" cx="8.064" cy="25.305" rx="8.064" ry="25.305" transform="translate(39.393 25.433) rotate(-30)" fill="url(#linear-gradient)"/>
+          <ellipse id="leaf-2" data-name="leaf" cx="8.064" cy="25.305" rx="8.064" ry="25.305" transform="matrix(0.035, 0.999, -0.999, 0.035, 130.014, 60.192)" fill="url(#linear-gradient)"/>
+          <ellipse id="leaf-3" data-name="leaf" cx="8.064" cy="25.305" rx="8.064" ry="25.305" transform="matrix(-0.017, 1, -1, -0.017, 115.431, 98.219)" fill="url(#linear-gradient)"/>
+          <ellipse id="leaf-4" data-name="leaf" cx="8.064" cy="25.305" rx="8.064" ry="25.305" transform="matrix(-0.017, 1, -1, -0.017, 103.195, 133.814)" fill="url(#linear-gradient)"/>
+          <ellipse id="leaf-5" data-name="leaf" cx="8.064" cy="25.305" rx="8.064" ry="25.305" transform="matrix(0.839, 0.545, -0.545, 0.839, 109.668, 0)" fill="url(#linear-gradient)"/>
+          <ellipse id="leaf-6" data-name="leaf" cx="8.064" cy="25.305" rx="8.064" ry="25.305" transform="translate(16.335 68.339) rotate(-41)" fill="url(#linear-gradient)"/>
+          <ellipse id="leaf-7" data-name="leaf" cx="8.064" cy="25.305" rx="8.064" ry="25.305" transform="translate(0 109.716) rotate(-47)" fill="url(#linear-gradient)"/>
+        </g>
+        <g id="tree" transform="translate(48.242 431)" opacity="0.3">
+          <path id="leaves" d="M78.353,221.145c-5.736,5.074-27.548-5.074-36.2-20.825s7.394-21.358-14.426-46.55S-8.092,118.93,5.15,77.4.1,12.8,24.27,1.969,62.362,27.091,59.59,58.717s2.9,38.181,26.541,34.9,3.71,43.153,3.71,53.288,14.336,28.959,11.362,43.122S84.088,216.071,78.353,221.145Z" transform="translate(0 0)" fill="url(#linear-gradient-8)"/>
+          <path id="branch" d="M0,46.776C4.25,39.9,12.656,16.929,12.656,0" transform="translate(64.544 130.218)" fill="none" stroke="#707070" stroke-linecap="round" stroke-miterlimit="10" stroke-width="6"/>
+          <path id="branch-2" data-name="branch" d="M-25.963,28c0-7.779-21.84-13.24-32.531-28" transform="translate(73.792 103.604)" fill="none" stroke="#707070" stroke-linecap="round" stroke-miterlimit="10" stroke-width="6"/>
+          <path id="branch-3" data-name="branch" d="M60.841,235.565c-1.453-7.21-5.256-35.492-16.293-68.595C27.084,114.593,0,46.188,0,0" transform="translate(35.539 55.095)" fill="none" stroke="#707070" stroke-linecap="round" stroke-miterlimit="10" stroke-width="6"/>
+        </g>
+        <path id="ground" d="M0,53.981C50.732,38,179.963,0,293.606,0S548.122,61.516,639.033,68.5,963.8,80.313,963.8,80.313V255.27H0S0,115.22,0,53.981Z" transform="translate(2.5 661.8)" fill="url(#linear-gradient-9)"/>
+        <g id="plant-2" data-name="plant" transform="matrix(-0.951, -0.309, 0.309, -0.951, 652.615, 713.059)" opacity="0.3">
+          <path id="stem-2" data-name="stem" d="M41.139,120.711C41.139,99.856,23.632,35.315,0,0" transform="translate(64.873 120.711) rotate(180)" fill="none" stroke="#707070" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4.5"/>
+          <ellipse id="leaf-8" data-name="leaf" cx="6.074" cy="18.978" rx="6.074" ry="18.978" transform="translate(40.172 146.8) rotate(-150)" fill="url(#linear-gradient-10)"/>
+          <ellipse id="leaf-9" data-name="leaf" cx="6.074" cy="18.978" rx="6.074" ry="18.978" transform="matrix(-0.035, 0.999, -0.999, -0.035, 98.209, 102.555)" fill="url(#linear-gradient-10)"/>
+          <ellipse id="leaf-10" data-name="leaf" cx="6.074" cy="18.978" rx="6.074" ry="18.978" transform="matrix(0.017, 1, -1, 0.017, 86.59, 74.03)" fill="url(#linear-gradient-10)"/>
+          <ellipse id="leaf-11" data-name="leaf" cx="6.074" cy="18.978" rx="6.074" ry="18.978" transform="matrix(0.017, 1, -1, 0.017, 77.374, 47.334)" fill="url(#linear-gradient-10)"/>
+          <ellipse id="leaf-12" data-name="leaf" cx="6.074" cy="18.978" rx="6.074" ry="18.978" transform="matrix(-0.839, 0.545, -0.545, -0.839, 92.686, 153.212)" fill="url(#linear-gradient-10)"/>
+          <ellipse id="leaf-13" data-name="leaf" cx="6.074" cy="18.978" rx="6.074" ry="18.978" transform="translate(21.465 116.513) rotate(-139)" fill="url(#linear-gradient-10)"/>
+          <ellipse id="leaf-14" data-name="leaf" cx="6.074" cy="18.978" rx="6.074" ry="18.978" transform="translate(8.285 86.392) rotate(-133)" fill="url(#linear-gradient-10)"/>
+        </g>
+        <g id="tree-2" data-name="tree" transform="translate(120.402 481.175)">
+          <path id="leaves-2" data-name="leaves" d="M71.372,209.114c-15.531-4.071-61.346-23.757-47.949-46.8s26.794-29.673,13.4-40.2S32.941,88.17,46.186,78.532s-18.12-38.35-3.752-53.542,60.3,8.276,61.359,37,11.749,26.737,17.179,39.707-32.189,32.438-26.691,46.53S131.843,177.015,113.062,196,86.9,213.186,71.372,209.114Z" transform="translate(-21 -20.22)" fill="url(#radial-gradient)"/>
+          <path id="stem-3" data-name="stem" d="M20.876,196.762C22.688,164.278-10.8,150.733,13.019,105s7.269-85.212,0-100.248" transform="translate(33.626 22.237)" fill="rgba(0,0,0,0)" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="6"/>
+          <path id="branch-4" data-name="branch" stroke="#707070" d="M19.572,20.128A34.642,34.642,0,0,1,4,4" fill="rgba(0,0,0,0)" transform="translate(32.706 87.085)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="5" opacity="0.3"/>
+          <path id="branch-5" data-name="branch" stroke="#707070" d="M24.577,25.133C18.127,22.463,4.935,15.132,4,4" fill="rgba(0,0,0,0)" transform="translate(14.909 141.031)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="5" opacity="0.3"/>
+          <path id="branch-6" data-name="branch" stroke="#707070" d="M4,14.567C9.806,16.2,18.416,14.714,25.69,4" fill="rgba(0,0,0,0)" transform="translate(37.711 124.347)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="5" opacity="0.3"/>
+          <path id="branch-7" data-name="branch" stroke="#707070" d="M4,29.027C7.783,26.044,15.138,14.265,14.567,4" fill="rgba(0,0,0,0)" transform="translate(53.839 27.022)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="5" opacity="0.3"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
