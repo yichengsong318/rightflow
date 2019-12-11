@@ -47,10 +47,12 @@ The app is build on top of the following framework and tools:
       - lint-staged  
         allows us to run scripts on staged files in git  
 
-  - Styles components (https://www.styled-components.com//)  
+  - Styles components (https://www.styled-components.com)  
   Visual primitives for the component age.  
   We use for styling scoped our components
 
+- tailwindcss-transitions (https://github.com/benface/tailwindcss-transitions)  
+  For css transtion using tailwindcss
 
 ### Tutorials for setup tools in project
   - https://dev.to/hagnerd/setting-up-tailwind-with-create-react-app-4jd
