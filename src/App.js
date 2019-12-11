@@ -1,5 +1,5 @@
 import React from "react";
-import AppLogo from "components/base/AppLogo";
+import AppLogo from "components/base/logo/AppLogo";
 
 function App() {
   return (
