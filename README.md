@@ -74,6 +74,8 @@ The app is build on top of the following framework and tools:
   3. Merge PR to master
   4. Access Jenkins online
   5. Run Jenkins (RightFlow web) from jenkins
+  6. Create tag when there a stable version in deployment `git tag v1.2`  
+  7. Push tag online `git push --tags`
 
 ## Available Scripts
 
