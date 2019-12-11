@@ -3,7 +3,13 @@
 The app is build on top of the following framework and tools:
 
 - ReactJs(https://github.com/facebook/create-react-app)  
-  A javascript library for building modern web app
+  A javascript library for building modern web app  
+  This project is intend to use react-hooks as base
+
+- React Hooks (https://reactjs.org/docs/hooks-intro.html)  
+  Let us use state and other React features without writing a class.  
+  *** Warning ***  
+  All components must be writing with hooks styles  
 
 - Tailwindcss (https://tailwindcss.com/)    
   A utility-first CSS framework for rapidly building custom designs.
@@ -40,6 +46,10 @@ The app is build on top of the following framework and tools:
 
       - lint-staged  
         allows us to run scripts on staged files in git  
+
+  - Styles components (https://www.styled-components.com//)  
+  Visual primitives for the component age.  
+  We use for styling scoped our components
 
 
 ### Tutorials for setup tools in project
