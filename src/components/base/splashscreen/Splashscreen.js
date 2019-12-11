@@ -49,7 +49,15 @@ export default function Splashscreen(props) {
 
   return (
     <SplashscreenContainer className="w-full h-full flex items-center justify-center">
-      {delaying ? <AppLogoIcon /> : <AppLogo />}
+      {delaying ? (
+        <div className="transition-all transition-500 transition-linear">
+          <AppLogoIcon />
+        </div>
+      ) : (
+        <div className="transition-all transition-500 transition-linear">
+          <AppLogo />
+        </div>
+      )}
     </SplashscreenContainer>
   );
 }
