@@ -1,9 +1,10 @@
 import React from "react";
+import Logo from "assets/images/rightflow-logo.svg";
 
 function App() {
   return (
-    <div className="flex flex-col w-3/4 mx-auto my-12 items-center">
-      <h1>Welcome to RightFlow</h1>
+    <div className="flex w-full h-full items-center justify-center">
+      <img src={Logo} alt="Logo" />
     </div>
   );
 }
