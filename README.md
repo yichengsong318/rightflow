@@ -62,9 +62,18 @@ The app is build on top of the following framework and tools:
   We have built a simple NodeJs server in order to render the app in production.
 
 ### Deployment
-  We use open source Docker (https://docs.docker.com/get-started/) for app deployment.
-  We have CI/CD triggable from our Jenkins internal Jenkins.
-  We have Docker Swarm (https://docs.docker.com/engine/swarm/) installed inside our servers.
+  We use open source Docker (https://docs.docker.com/get-started/) for app deployment.  
+  We have CI/CD triggable from our Jenkins internal Jenkins.  
+  We have Docker Swarm (https://docs.docker.com/engine/swarm/) installed inside our servers.  
+  We use Git flow (https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) convention four development  
+  The deploy branch is ***master***  
+
+## CDe, CI/CD
+  1. Create new feature from ***master***, `git checkout master && checkout -b feature/new_feature`  
+  2. Create pull request from feature branch to master (on bitbucket on local git)  
+  3. Merge PR to master
+  4. Access Jenkins online
+  5. Run Jenkins (RightFlow web) from jenkins
 
 ## Available Scripts
 
