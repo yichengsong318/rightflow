@@ -16,17 +16,22 @@ The app is build on top of the following framework and tools:
 
 - Storybook (https://www.learnstorybook.com/)  
   An open source tool for developing UI components in isolation of framework.  
-  We use Storybook for react for this project
+  We use Storybook for react for this project  
+  We have integrated Component live data with `storybook/addon-knobs` for editing component props inside storybook panel (https://github.com/storybookjs/storybook/tree/master/addons/knobs)  
+  We have integrated Testing along with Component and display result inside storybook interface `storybook-addon-specifications` (https://github.com/mthuret/storybook-addon-specifications)  
 
 - Unit Test  
     - Enzyme (https://airbnb.io/enzyme/)  
-      A JavaScript Testing utility for React that makes it easier to test your React Components' output
+      A JavaScript Testing utility for React that makes it easier to test your React Components' output (https://create-react-app.dev/docs/running-tests#option-1-shallow-rendering)  
 
     - Jest (https://jestjs.io/)  
-      A delightful JavaScript Testing Framework with a focus on simplicity.
+      A delightful JavaScript Testing Framework with a focus on simplicity.  
+
+    We recommand use Enzyme to test component for the project. But you can use Jest if you're more confortable with it.  
+
     
 - End to end Test  
-    - Cypress (https://www.cypress.io/how-it-works)  
+    - Cypress (https://www.cypress.io/how-it-works) - [Not yet implemented]
       Fast, easy and reliable testing for anything that runs in a browser.
 
 - Linter  
@@ -52,7 +57,10 @@ The app is build on top of the following framework and tools:
   We use for styling scoped our components
 
 - tailwindcss-transitions (https://github.com/benface/tailwindcss-transitions)  
-  For css transtion using tailwindcss
+  For css transtion using tailwindcss  
+
+- State management with redux (https://github.com/facebookincubator/redux-react-hook)  
+  To manage glabal app state, we use Redux and implement it via React hooks
 
 ### Tutorials for setup tools in project
   - https://dev.to/hagnerd/setting-up-tailwind-with-create-react-app-4jd
