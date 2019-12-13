@@ -2,7 +2,7 @@ import React, { useRef, useCallback, useEffect } from "react";
 import { useMappedState } from "redux-react-hook";
 import AppLogo from "components/base/logo/AppLogo";
 import TopNavBarMenu from "components/layout/top-nav-bar-menu/TopNavBarMenu";
-import styles from "./TopNavBarMain.module.css"; // [ComponentName].module.css auto import css-module include to create react app
+// import styles from "./TopNavBarMain.module.css"; // [ComponentName].module.css auto import css-module include to create react app
 
 export default function TopNavBarMain() {
   const hasMount = useRef(false);
@@ -23,7 +23,7 @@ export default function TopNavBarMain() {
   return (
     <div className="flex items-center justify-between">
       <div className="">
-        <AppLogo style={{ width: "10rem" }} />
+        <AppLogo width="10rem" height="4rem" />
       </div>
       <div className="">
         <TopNavBarMenu userName={userFullName} />
