@@ -21,8 +21,8 @@
       <stop offset="1" stop-color="#adf9a9"/>
     </radialGradient>
   </defs>
-  <g id="splash_screen_background" data-name="splash screen background" transform="translate(7)">
-    <rect id="Rectangle_83" data-name="Rectangle 83" width="1440" height="900" fill="rgba(236,236,245,0.5)"/>
+  <g id="splash_screen_background" data-name="splash screen background">
+    <rect id="Rectangle_83" data-name="Rectangle 83" width="1447" height="900" fill="rgba(236,236,245,0.5)"/>
     <g id="Mask_Group_5" data-name="Mask Group 5" clip-path="url(#clip-path)">
       <g id="Group_1017" data-name="Group 1017" transform="translate(-9.5 162.132)" opacity="0.6">
         <g id="plant" transform="translate(602.672 490.935)">
