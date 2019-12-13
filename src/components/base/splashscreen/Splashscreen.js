@@ -6,10 +6,12 @@ import styled from "styled-components";
 import bgSplashscreen from "assets/images/splashscreen-background.svg";
 import AppLogo from "components/base/logo/AppLogo";
 import AppLogoIcon from "components/base/logo-icon/AppLogoIcon";
-// import { useMappedState } from "redux-react-hook";
 
 const SplashscreenContainer = styled.div`
-  background: url(${bgSplashscreen}) no-repeat bottom;
+  background-image: url(${bgSplashscreen});
+  height: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -19,8 +21,6 @@ const SplashscreenContainer = styled.div`
 export default function Splashscreen(props) {
   const hasMount = useRef(false);
   const [delaying, setDelaying] = useState(false);
-  // const mapState = useCallback(state => state.timeDelaySplashscreen, []);
-  // const delayTime = useMappedState(mapState);
 
   useEffect(() => {
     if (!hasMount.current) {
