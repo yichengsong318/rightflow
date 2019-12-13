@@ -5,7 +5,7 @@ export default function reducer(state, action) {
 
   switch (action.type) {
     case "UPDATE_USER_CONNECTED": {
-      return { ...state, userConnected: action.value };
+      return { ...state, userIsConnected: action.value };
     }
     default:
       return state;

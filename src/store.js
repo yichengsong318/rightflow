@@ -5,8 +5,16 @@ import reducer from "./reducer";
 export function makeStore() {
   return createStore(reducer, {
     appName: "RightFlow",
-    timeDelaySplashscreen: 600,
-    userConnected: false,
-    userFullName: ""
+    timeTransitionSplashscreen: 600,
+    timeDurationSplashscreen: 1000,
+    userIsConnected: false,
+    viewOnbording: false,
+    userFullName: "",
+    currentLang: "en",
+    languages: [
+      { key: "en", name: "English" },
+      { key: "fr", name: "Français" }
+    ],
+    siteCopyright: "A product of"
   });
 }
