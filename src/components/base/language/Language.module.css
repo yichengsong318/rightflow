@@ -1,0 +1,15 @@
+.flag {
+}
+
+.current_language {
+  letter-spacing: 0;
+  color: #2c2c2c;
+  max-width: 8rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dropdown_icon {
+  margin-top: -0.25rem;
+}
