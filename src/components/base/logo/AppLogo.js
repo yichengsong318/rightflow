@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { ReactComponent as Logo } from "assets/images/rightflow-logo.svg";
 
 export default function AppLogo(props) {
@@ -12,3 +13,8 @@ export default function AppLogo(props) {
     />
   );
 }
+
+AppLogo.propTypes = {
+  width: PropTypes.string,
+  height: PropTypes.string
+};
