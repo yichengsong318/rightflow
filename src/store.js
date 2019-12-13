@@ -6,6 +6,7 @@ export function makeStore() {
   return createStore(reducer, {
     appName: "RightFlow",
     timeDelaySplashscreen: 600,
-    userConnected: false
+    userConnected: false,
+    userFullName: ""
   });
 }
