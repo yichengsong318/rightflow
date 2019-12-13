@@ -1,0 +1,13 @@
+.username {
+  max-width: 10rem;
+  color: #434343;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  opacity: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.menu_container {
+  margin-left: 2.77rem;
+}
