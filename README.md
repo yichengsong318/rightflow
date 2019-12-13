@@ -54,7 +54,10 @@ The app is build on top of the following framework and tools:
 
   - Styles components (https://www.styled-components.com)  
   Visual primitives for the component age.  
-  We use for styling scoped our components
+  We use for styling scoped our components.  
+
+  - CSS Modules (https://create-react-app.dev/docs/adding-a-css-modules-stylesheet)  
+    We use CSS Modules to scoped css for our component. It's the main css style for the project.  
 
 - tailwindcss-transitions (https://github.com/benface/tailwindcss-transitions)  
   For css transtion using tailwindcss  
