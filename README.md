@@ -63,7 +63,14 @@ The app is build on top of the following framework and tools:
   For css transtion using tailwindcss  
 
 - State management with redux (https://github.com/facebookincubator/redux-react-hook)  
-  To manage glabal app state, we use Redux and implement it via React hooks
+  To manage glabal app state, we use Redux and implement it via React hooks  
+
+- Icons  
+  We use materials icons (https://github.com/mui-org/material-ui/tree/master/packages/material-ui-icons) and docs here (https://material-ui.com/components/icons/)  
+  Icon list here (https://material-ui.com/components/material-icons/)  
+
+- PropTypes  (https://github.com/facebook/prop-types)
+  Runtime type checking for React props and similar objects
 
 ### Tutorials for setup tools in project
   - https://dev.to/hagnerd/setting-up-tailwind-with-create-react-app-4jd
