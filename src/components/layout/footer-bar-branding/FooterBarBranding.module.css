@@ -1,0 +1,12 @@
+.litte_description {
+  max-width: 10rem;
+  color: #6c6c6c;
+  letter-spacing: 0;
+  opacity: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.brand_logo {
+  margin-left: 0.875rem;
+}
