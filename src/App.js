@@ -1,11 +1,12 @@
 import React from "react";
-import AppLogo from "components/base/logo/AppLogo";
+import { BrowserRouter as Router } from "react-router-dom";
+import Welcome from "components/ui/welcome/Welcome";
 
 function App() {
   return (
-    <div className="flex w-full h-full items-center justify-center">
-      <AppLogo />
-    </div>
+    <Router>
+      <Welcome />
+    </Router>
   );
 }
 
