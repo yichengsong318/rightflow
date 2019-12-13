@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import Welcome from "components/ui/welcome/Welcome";
+import Main from "components/layout/main/Main";
 
 function App() {
   return (
     <Router>
-      <Welcome />
+      <Main />
     </Router>
   );
 }
