@@ -3,11 +3,11 @@ import React, { useRef, useState, useEffect } from "react";
 
 import PropTypes from "prop-types";
 import styled from "styled-components";
-import bgSplashscreen from "assets/images/splashscreen-background.svg";
+import bgSplashscreen from "assets/images/app-full-background.svg";
 import AppLogo from "components/base/logo/AppLogo";
 import AppLogoIcon from "components/base/logo-icon/AppLogoIcon";
 
-const SplashscreenContainer = styled.div`
+const Splashscreen__Container = styled.div`
   background-image: url(${bgSplashscreen});
   height: 100%;
   background-position: bottom;
@@ -52,7 +52,8 @@ export default function Splashscreen(props) {
   };
 
   return (
-    <SplashscreenContainer className="w-full h-full flex items-center justify-center">
+    // eslint-disable-next-line react/jsx-pascal-case
+    <Splashscreen__Container className="w-full h-full flex items-center justify-center">
       {delaying ? (
         <div className="transition-all transition-500 transition-linear">
           <AppLogoIcon />
@@ -62,7 +63,7 @@ export default function Splashscreen(props) {
           <AppLogo />
         </div>
       )}
-    </SplashscreenContainer>
+    </Splashscreen__Container>
   );
 }
 
