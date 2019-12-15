@@ -70,7 +70,11 @@ The app is build on top of the following framework and tools:
   Icon list here (https://material-ui.com/components/material-icons/)  
 
 - PropTypes  (https://github.com/facebook/prop-types)
-  Runtime type checking for React props and similar objects
+  Runtime type checking for React props and similar objects  
+
+- Internationalization (https://github.com/i18next/react-i18next)
+  react-i18next for react done right. Using the i18next i18n ecosystem.  
+  ***NOTE** We are using hooks version for react-i18next
 
 ### Tutorials for setup tools in project
   - https://dev.to/hagnerd/setting-up-tailwind-with-create-react-app-4jd
