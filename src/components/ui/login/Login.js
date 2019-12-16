@@ -5,6 +5,7 @@ import bgLogin from "assets/images/app-full-background.svg";
 
 import TopNavBarMain from "components/layout/top-nav-bar-main/TopNavBarMain";
 import FooterBar from "components/layout/footer-bar/FooterBar";
+import LoginContent from "components/ui/login-content/LoginContent";
 
 export default function Login() {
   const hasMount = useRef(false);
@@ -41,7 +42,9 @@ export default function Login() {
         </div>
       </div>
       <div className="container">
-        <h1> Login content</h1>
+        <div className={styles.content_container}>
+          <LoginContent />
+        </div>
       </div>
       <div className={styles.footer_container}>
         <div className="container">
