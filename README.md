@@ -74,7 +74,10 @@ The app is build on top of the following framework and tools:
 
 - Internationalization (https://github.com/i18next/react-i18next)
   react-i18next for react done right. Using the i18next i18n ecosystem.  
-  ***NOTE** We are using hooks version for react-i18next
+  ***NOTE** We are using hooks version for react-i18next  
+
+- Forms
+  We use react-hook-form (https://react-hook-form.com/get-started) for form management
 
 ### Tutorials for setup tools in project
   - https://dev.to/hagnerd/setting-up-tailwind-with-create-react-app-4jd
