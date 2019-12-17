@@ -19,6 +19,7 @@ The app is build on top of the following framework and tools:
   We use Storybook for react for this project  
   We have integrated Component live data with `storybook/addon-knobs` for editing component props inside storybook panel (https://github.com/storybookjs/storybook/tree/master/addons/knobs)  
   We have integrated Testing along with Component and display result inside storybook interface `storybook-addon-specifications` (https://github.com/mthuret/storybook-addon-specifications)  
+  We have integrated actions with `storybook/addon-actions` for displaying actions inside storybook panel (https://github.com/storybookjs/storybook/tree/master/addons/actions)  
 
 - Unit Test  
     - Enzyme (https://airbnb.io/enzyme/)  
@@ -78,6 +79,12 @@ The app is build on top of the following framework and tools:
 
 - Forms
   We use react-hook-form (https://react-hook-form.com/get-started) for form management
+
+- Axios(https://github.com/axios/axios)  
+  We use axios for http request build with our custom react hooks useHttpService  
+
+- socket.io-client   (https://github.com/socketio/socket.io-client)  
+  To receive response from server we use socketIO
 
 ### Tutorials for setup tools in project
   - https://dev.to/hagnerd/setting-up-tailwind-with-create-react-app-4jd
