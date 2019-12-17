@@ -2,12 +2,60 @@
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000029;
   opacity: 1;
-  backdrop-filter: blur(30px);
-  -webkit-backdrop-filter: blur(30px);
+  /* backdrop-filter: blur(30px); Chrome bug and the feature is on draft https://bugs.chromium.org/p/chromium/issues/detail?id=986206
+  -webkit-backdrop-filter: blur(30px); */
 }
 
 .info_container {
   padding: 1rem;
+  font-size: 1.12rem;
+  text-align: center;
+  opacity: 1;
+  color: #000000;
+}
+.info_container:global(.error) {
+  color: #dc3545;
+}
+.info_container:global(.success) {
+  color: #80b500;
+}
+
+.form_container {
+  width: 100%;
+}
+
+.form_container .form_item {
+  margin: 2rem 0;
+}
+
+.form_container .form_control {
+  width: 100%;
+}
+
+.form_container input {
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid #e9e9f0;
+  color: #808080;
+  font-size: 0.875rem;
+}
+
+.form_container input:focus {
+  outline: 0;
+  border-bottom: 2px solid #3487ea;
+}
+
+.form_container_remember_me {
+  font-size: 0.93rem;
+  color: #43425d;
+}
+
+.form_container_forgot_password {
+  font-size: 0.93rem;
+  color: #43425d;
+}
+
+.form_container_submit {
+  margin-top: 5rem !important;
 }
 
 /* Responsive */
