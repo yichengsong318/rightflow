@@ -2,7 +2,8 @@ import React, { useRef, useCallback, useEffect } from "react";
 import { useMappedState } from "redux-react-hook";
 import AppLogo from "components/base/logo/AppLogo";
 import TopNavBarMenu from "components/layout/top-nav-bar-menu/TopNavBarMenu";
-// import styles from "./TopNavBarMain.module.css"; // [ComponentName].module.css auto import css-module include to create react app
+import { Link } from "react-router-dom";
+import { NAVIGATION } from "constants/constants";
 
 export default function TopNavBarMain() {
   const hasMount = useRef(false);
@@ -22,10 +23,12 @@ export default function TopNavBarMain() {
   });
   return (
     <div className="flex items-center justify-between">
-      <div className="">
-        <AppLogo width="10rem" height="4rem" />
+      <div className="cursor-pointer">
+        <Link to={NAVIGATION.HOME}>
+          <AppLogo width="10rem" height="4rem" />
+        </Link>
       </div>
-      <div className="">
+      <div>
         <TopNavBarMenu userName={userFullName} />
       </div>
     </div>
