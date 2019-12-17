@@ -25,15 +25,27 @@ a {
 }
 
 /* Responsive */
-@media (min-width: 640px) {
+@media (max-width: 449px) {
+  .container {
+    padding: 0 1rem;
+  }
+}
+
+@media (min-width: 450px) {
   .container {
     padding: 0 1.5rem;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
   .container {
     padding: 0 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0 3rem;
   }
 }
 
