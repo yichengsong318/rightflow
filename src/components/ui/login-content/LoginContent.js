@@ -225,7 +225,7 @@ export default function LoginContent() {
           </div>
         </Suspense>
       ) : (
-        <Redirect to={NAVIGATION.ONBOARDING} />
+        <Redirect to={NAVIGATION.HOME} />
       )}
     </React.Fragment>
   );
