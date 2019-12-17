@@ -1,0 +1,38 @@
+.button {
+  border-radius: 5px;
+  opacity: 1;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+}
+
+:global(.primary) {
+  background: #3487ea 0% 0% no-repeat padding-box;
+  color: #fff;
+}
+
+:global(.primary:disabled) {
+  background: rgb(135, 169, 211) 0% 0% no-repeat padding-box;
+  color: #fff;
+}
+
+:global(.primary:hover) {
+  background: #2274d8 0% 0% no-repeat padding-box;
+  color: #fff;
+}
+
+:global(.danger) {
+  background: #dc3545;
+  color: #fff;
+}
+
+:global(.danger:disabled) {
+  background: #c97e85 0% 0% no-repeat padding-box;
+  color: #fff;
+}
+
+:global(.danger:hover) {
+  background: #d42b3c;
+  color: #fff;
+}
