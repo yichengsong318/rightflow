@@ -6,8 +6,6 @@ import BrowserLanguage from "services/BrowserLanguage";
 
 const CURRENT_LANG = BrowserLanguage.getDefaultLanguage();
 
-console.log("CURRENT_LANG = ", CURRENT_LANG);
-
 i18n
   // pass the i18n instance to react-i18next.
   .use(initReactI18next)

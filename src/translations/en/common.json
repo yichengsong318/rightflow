@@ -3,6 +3,19 @@
   "footer": {},
   "general": {},
   "login": {
-    "welcome": "Welcome back! Please login to your account."
+    "welcome": "Welcome back! Please login to your account.",
+    "email_placeholder": "Email",
+    "password_placeholder": "Password",
+    "submit_login": "Get started",
+    "forgot_password": "Forgot password",
+    "remember_me": "Remember me",
+    "required_password": "Mot de passe obligatoire",
+    "invalid_email_address": "Invalid email address",
+    "wrong_email_or_password": "Wrong email or password",
+    "signin_success": "You are logged in",
+    "attempt_signin": "Attempt to login..."
+  },
+  "error": {
+    "something_went_wrong": "Something went wrong"
   }
 }
