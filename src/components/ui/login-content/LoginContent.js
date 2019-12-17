@@ -83,7 +83,7 @@ export default function LoginContent() {
         setInfoMessage(t("login.signin_success"));
         setTimeout(() => {
           updateUserIsConnected(true);
-        }, 1000);
+        }, 600);
       } else if (response.status === 404) {
         setInfoStatus("error");
         setInfoMessage(t("login.wrong_email_or_password"));
@@ -115,7 +115,7 @@ export default function LoginContent() {
         setInfoMessage(t("login.signin_success"));
         setTimeout(() => {
           updateUserIsConnected(true);
-        }, 1000);
+        }, 600);
       } else {
         setInfoStatus("error");
         setInfoMessage(t("login.wrong_email_or_password"));
@@ -147,11 +147,13 @@ export default function LoginContent() {
                   autoComplete="on"
                   ref={register({
                     required: true,
-                    pattern: "/^[A-Z0-9._%+-]+@[A-Z0-9.-]+.[A-Z]{2,4}$/i"
+                    pattern: {
+                      value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i
+                    }
                   })}
                 />
                 {errors.email && (
-                  <div className="form-help">
+                  <div className="form-help error">
                     {t("login.invalid_email_address")}
                   </div>
                 )}
@@ -166,7 +168,7 @@ export default function LoginContent() {
                   ref={register({ required: true })}
                 />
                 {errors.password && (
-                  <div className="form-help">
+                  <div className="form-help error">
                     {t("login.required_password")}
                   </div>
                 )}
@@ -181,10 +183,11 @@ export default function LoginContent() {
                     <input
                       type="checkbox"
                       name="remeberme"
+                      id="remeberme"
                       ref={register}
                       className="mr-2"
                     />
-                    <span className="">{t("login.remember_me")}</span>
+                    <label htmlFor="remeberme">{t("login.remember_me")}</label>
                   </div>
                   <div
                     className={
@@ -205,9 +208,11 @@ export default function LoginContent() {
                   type="submit"
                   className="w-full"
                   cssStyle={{ fontSize: ".75rem" }}
-                  disabled={infoStatus === "loading"}
+                  disabled={
+                    infoStatus === "loading" || infoStatus === "success"
+                  }
                 >
-                  {infoStatus === "loading" ? (
+                  {infoStatus === "loading" || infoStatus === "success" ? (
                     <div className="w-full flex items-center justify-center">
                       <Loader />
                     </div>
