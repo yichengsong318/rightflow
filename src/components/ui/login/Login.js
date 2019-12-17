@@ -41,9 +41,11 @@ export default function Login() {
           <TopNavBarMain />
         </div>
       </div>
-      <div className="container">
-        <div className={styles.content_container}>
-          <LoginContent />
+      <div className={styles.body_content_container}>
+        <div className="container">
+          <div className={styles.content_container}>
+            <LoginContent />
+          </div>
         </div>
       </div>
       <div className={styles.footer_container}>
