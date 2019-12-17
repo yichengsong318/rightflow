@@ -9,7 +9,7 @@
     "submit_login": "Get started",
     "forgot_password": "Forgot password",
     "remember_me": "Remember me",
-    "required_password": "Mot de passe obligatoire",
+    "required_password": "Password required",
     "invalid_email_address": "Invalid email address",
     "wrong_email_or_password": "Wrong email or password",
     "signin_success": "You are logged in",
