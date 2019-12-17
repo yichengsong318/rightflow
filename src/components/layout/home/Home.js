@@ -6,7 +6,7 @@ import { NAVIGATION } from "constants/constants";
 export default function Home() {
   const hasMount = useRef(false);
   const mapIsConnectedState = useCallback(state => state.userIsConnected, []);
-  const isConnected = useMappedState(mapIsConnectedState);
+  const userIsConnected = useMappedState(mapIsConnectedState);
   const mapViewOnbording = useCallback(state => state.viewOnbording, []);
   const viewOnbording = useMappedState(mapViewOnbording);
 
@@ -23,7 +23,7 @@ export default function Home() {
   });
 
   function HandleMainRoute() {
-    if (isConnected) {
+    if (userIsConnected) {
       if (viewOnbording) {
         return <Redirect to={NAVIGATION.APP} />;
       } else {
