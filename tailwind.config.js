@@ -4,6 +4,11 @@ module.exports = {
       center: true
     },
     screens: {
+      smMax: { max: "640px" },
+      mdMax: { max: "768px" },
+      lgMax: { max: "1024px" },
+      xlMax: { max: "1280px" },
+      xxlMax: { max: "1440px" },
       sm: "640px",
       // => @media (min-width: 640px) { ... }
       md: "768px",
