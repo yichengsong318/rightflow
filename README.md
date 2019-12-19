@@ -84,7 +84,9 @@ The app is build on top of the following framework and tools:
   We use axios for http request build with our custom react hooks useHttpService  
 
 - socket.io-client   (https://github.com/socketio/socket.io-client)  
-  To receive response from server we use socketIO
+  To receive response from server we use socketIO  
+
+- Handle scroll (https://github.com/n8tb1t/use-scroll-position)
 
 ### Tutorials for setup tools in project
   - https://dev.to/hagnerd/setting-up-tailwind-with-create-react-app-4jd
