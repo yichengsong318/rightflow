@@ -10,6 +10,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: Manrope3;
+  src: url("./assets/fonts/Manrope-Regular.woff2") format("woff2"),
+    url("./assets/fonts/Manrope-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /*-----------------------------------------------*/
 /*----------------- CUSTOM CSS ------------------*/
 /*-----------------------------------------------*/
