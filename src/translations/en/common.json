@@ -17,5 +17,23 @@
   },
   "error": {
     "something_went_wrong": "Something went wrong"
+  },
+  "onboarding": {
+    "get_started": "Get started",
+    "scroll_read_more": "Scroll to read more",
+    "go_to_setup": "Go to setup",
+    "NUMBER_1": {
+      "title1": "Hello there,",
+      "title2": "welcome to RightFlow",
+      "description": "Time to get started and easily set up devices (hardware & software) at initial login so that you can start create events subsequently manage your data"
+    },
+    "NUMBER_2": {
+      "title": "Monitor traffic flow and distribution, to make more informed decisions",
+      "description": "Time to get started and easily set up devices (hardware & software) at initial login so that you can start create events subsequently manage your data"
+    },
+    "NUMBER_3": {
+      "title": "Identify your happiest customers and cater to potential ones",
+      "description": "Time to get started and easily set up devices (hardware & software) at initial login so that you can start create events subsequently manage your data"
+    }
   }
 }
