@@ -13,6 +13,12 @@ export default function reducer(state, action) {
     case "UPDATE_SOCKET_INSTANCE": {
       return { ...state, socketIoInstance: action.value };
     }
+    case "UPDATE_USER_FULLNAME": {
+      return { ...state, userFullName: action.value };
+    }
+    case "UPDATE_VIEW_ONBOARDING": {
+      return { ...state, viewOnbording: action.value };
+    }
     default:
       return state;
   }

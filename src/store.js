@@ -11,7 +11,7 @@ export function makeStore() {
     userIsConnected: false,
     userInfo: null,
     viewOnbording: false,
-    userFullName: "",
+    userFullName: "Harold Meks-Ajagu",
     currentLang: "en",
     languages: [
       { key: "en", name: "English" },
