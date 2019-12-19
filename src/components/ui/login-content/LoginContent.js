@@ -42,6 +42,10 @@ export default function LoginContent() {
     status => dispatch({ type: "UPDATE_USER_IS_CONNECTED", value: status }),
     [dispatch]
   );
+  const updateUserFullName = useCallback(
+    fullName => dispatch({ type: "UPDATE_USER_FULLNAME", value: fullName }),
+    [dispatch]
+  );
 
   useEffect(() => {
     socketIoInstance.on(SIO_CHANNEL_SIGNIN, response =>
@@ -79,6 +83,9 @@ export default function LoginContent() {
           firstname: response.data.firstname,
           lastname: response.data.lastname
         });
+        updateUserFullName(
+          response.data.firstname + " " + response.data.lastname
+        );
         setInfoStatus("success");
         setInfoMessage(t("login.signin_success"));
         setTimeout(() => {
