@@ -10,6 +10,8 @@ export default function Button(props) {
       className={
         styles.button +
         " " +
+        (props.size ? props.size : "normal") +
+        " " +
         (props.color ? props.color : "primary") +
         " " +
         props.className
@@ -27,5 +29,6 @@ Button.propTypes = {
   disabled: PropTypes.bool,
   color: PropTypes.oneOf(["primary", "danger"]),
   cssStyle: PropTypes.object,
-  OnClicked: PropTypes.func
+  OnClicked: PropTypes.func,
+  size: PropTypes.oneOf(["sm", "normal", "large"])
 };
