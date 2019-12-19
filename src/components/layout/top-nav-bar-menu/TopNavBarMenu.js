@@ -10,7 +10,7 @@ export default function TopNavBarMenu(props) {
         {props.userName}
       </div>
       <div className={styles.menu_container}>
-        <AppsIcon />
+        <AppsIcon className={styles.menu_container_last_item} />
       </div>
     </div>
   );

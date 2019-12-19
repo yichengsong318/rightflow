@@ -1,5 +1,5 @@
 .username {
-  max-width: 10rem;
+  max-width: 15rem;
   color: #434343;
   letter-spacing: 0;
   text-transform: uppercase;
@@ -10,4 +10,8 @@
 }
 .menu_container {
   margin-left: 2.77rem;
+}
+
+.menu_container_last_item {
+  margin-right: -0.3rem;
 }
