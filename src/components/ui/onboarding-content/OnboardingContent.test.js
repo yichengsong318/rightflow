@@ -10,6 +10,7 @@ import { makeStore } from "store";
 const store = makeStore();
 
 const data = {
+  id: 1,
   title: "Hello there, welcome to RightFlow",
   description:
     "Time to get started and easily set up devices (hardware & software) at initial login so that you can start create events subsequently manage your data"
@@ -28,6 +29,7 @@ it("Should render onboarding screen", () => {
   const wrapper = shallow(
     <StoreContext.Provider value={store}>
       <OnboardingContent
+        id={data.id}
         title={data.title}
         description={data.description}
         image={<Artwork />}
